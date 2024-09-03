@@ -20,7 +20,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #28a745;
+  --primary: #ffc107;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -3374,7 +3374,10 @@ input[type="button"].btn-block {
     color: #6c757d;
     pointer-events: none;
     cursor: default; }
-
+.left-border{
+  border-left: 5px solid var(--primary);
+  text-indent: 10px;
+}
 .nav-tabs {
   border-bottom: 1px solid #dee2e6; }
   .nav-tabs .nav-item {
